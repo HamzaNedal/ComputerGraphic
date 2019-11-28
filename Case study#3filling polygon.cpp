@@ -63,8 +63,7 @@ void scanfill(float x1, float y1, float x2, float y2, float x3, float y3, float 
 
 void display()
 {
-	x1 = 250.0; y1 = 200.0; x2 = 150.0; y2 = 300.0; x3 = 250.0;
-	y3 = 400.0; x4 = 350.0; y4 = 300.0;
+	
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBegin(GL_LINE_LOOP);
 	glVertex2f(100, 300);
