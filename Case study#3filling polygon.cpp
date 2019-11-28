@@ -67,12 +67,12 @@ void display()
 	glClear(GL_COLOR_BUFFER_BIT);
 	glBegin(GL_LINE_LOOP);
 	glVertex2f(100, 300);
-	glVertex2f(200, 100);
+	glVertex2f(200, 300);
 	glVertex2f(200, 200);
 	glVertex2f(100, 200);
 	glEnd();
 
-	scanfill(100, 300, 200, 100, 200, 200, 100, 200);
+	scanfill(100, 300, 200, 300, 200, 200, 100, 200);
 
 	glFlush();
 }
